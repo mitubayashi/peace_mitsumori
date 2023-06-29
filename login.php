@@ -121,7 +121,7 @@
         <h2 class="title">見積・請求システム</h2>
 	
 	<form action="login.php" method="post">
-	<img src="./image/newMlogo.png" alt="写真" style="width: 15%">
+	<img src="./image/newMlogo.png" alt="写真" style="width: 30%" vspace="50px">
 	<?php
 	if($comment != "")
 	{
