@@ -278,7 +278,7 @@ class PrintPage extends BasePage {
             $html .= '</tr>';
             $html .= '<tr style="height: 50px">';
             $html .= '<td style="width: 60px"><input type="checkbox" id="Confirm"></td>';
-            $html .= '<td style="font-size: 18px"><label for="Confirm">作業実績報告書兼<br>確認書</label></td>';
+            $html .= '<td style="font-size: 18px"><label for="Confirm">受領書</label></td>';
             $html .= '</tr>';
             $html .= '</tbody>';
             $html .= '</table>';
@@ -717,14 +717,14 @@ class PrintPage extends BasePage {
         $print .= "</div>";
 
         /* 作業実績報告書兼確認書 */
-        $print .= "<h3>作業実績報告書兼確認書</h3>";
+        $print .= "<h3>受領書</h3>";
         $print .= "<div class='aisatsu'>";
         $print .= "<span>&thinsp; 平素は格別のご高配に預かり、厚く御礼申し上げます。ご下命を賜っております<br />下記の弊社作業が終了した事をご報告いたしますので、ご確認願います。</span>";
         $print .= "</div>";
         $print .= "<br />";
 
         /* 作業実績報告 */
-        $print .= "<p class='meisaititle'>作業実績報告</p>";
+        $print .= "<p class='meisaititle'></p>";
         $print .= "<center>";
         $print .= "<div class='meisaibubun'>";
         $print .= "<table class='sagyoumeisai'>";
@@ -840,7 +840,7 @@ class PrintPage extends BasePage {
 
             /* 作業実績確認 */
             $print .= "<div class='kakunin'>";
-            $print .= "<p align='left'>作業実績確認</p>";
+            $print .= "<p align='left'>受領確認</p>";
             $print .= "<table class='kakunin'>";
             $print .= "<tr>";
             $print .= "<td>確認日</td><td>：</td><td>　　　　　年　　　月　　　日</td>";
