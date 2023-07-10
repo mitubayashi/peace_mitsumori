@@ -172,7 +172,7 @@
                 float: left;
                 font-size: 12px;
                 margin-left: -5%;
-                margin-top: 3%;
+                margin-top: 1%;
 	}
 	
 	/*自社情報*/
@@ -191,7 +191,6 @@
         p.tantousya{
                 margin: 0px;
                 margin-left: 60px;
-                margin-top: 3%;
         }
         
 	/*印鑑入力部分*/

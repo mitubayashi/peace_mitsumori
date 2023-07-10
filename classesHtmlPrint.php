@@ -441,6 +441,8 @@ class PrintPage extends BasePage {
         $print .= $_SESSION['JYUSHO2'];
         $print .= "</br>";
         $print .= "TEL：" . $_SESSION['TEL'] . " FAX：" . $_SESSION['FAX'] . "";
+        $print .= "</br>";
+        $print .= "登録番号：" . $_SESSION['INVOICENO'];
         $print .= "</p>";
         $print .= "<p class='tantousya'>担当者：" . $this->UserValue['HYOJIMEI'] . " </p>";
         $print .= "</div>";
